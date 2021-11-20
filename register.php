@@ -10,7 +10,7 @@
                 $users_crud->register($name, $email, $password);
             }
         ?>
-        <link href="assets/css/register.css" rel="stylesheet">
+        <title>Register</title>
     </head>
     <body>
         <section class="vh-100">

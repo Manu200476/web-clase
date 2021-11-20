@@ -21,6 +21,8 @@
         header('Location: ./');
     }
 ?>
+    <title>Crera Tarea</title>
+</head>
 
     <body class="container">
         <div class="mt-4 d-flex align-items-center justify-content-center">

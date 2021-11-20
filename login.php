@@ -9,7 +9,7 @@
                 $users_crud->login($email, $password);
             }
         ?>
-        <link href="assets/css/register.css" rel="stylesheet">
+        <title>Login</title>
     </head>
 <body>
     <section class="vh-100">

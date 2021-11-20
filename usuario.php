@@ -14,6 +14,7 @@
         $user_tasks = $tasks->getTasks($token);
         $user_info = $users_crud->getUserInfo($token);
     ?>
+    <title>Tu Zona de Usuario/title>
 </head>
     <body>
         <div class="container-fluid">

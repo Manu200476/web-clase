@@ -21,6 +21,8 @@
 
     $task = $tasks->getTask($task_id, $token);
 ?>
+  <title>Editar <?php echo $task['name'] ?></title>
+</head>
 
     <body class="container">
         <div class="mt-4 d-flex align-items-center justify-content-center">

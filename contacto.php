@@ -1,7 +1,7 @@
   <?php 
     require('./inc/head.php');
   ?>
-  <link href="assets/css/home.css" rel="stylesheet">
+  <title>Contacto</title>
 </head>
 
   <body class="container">

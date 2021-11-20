@@ -28,6 +28,7 @@
                     <li><a class="getstarted" href="./register.php">Registrarse</a></li>
                 <?php endif; ?>
             </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
     </div>
 </header>
