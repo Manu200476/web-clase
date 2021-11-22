@@ -7,14 +7,14 @@
         }
         $token = $_COOKIE['user_token'];
         $isLoggedIn = $users_crud->isLoggedIn($token);
-        if(!$isLoggedIn){
+        if(!$isLoggedIn || !$_GET['token']){
             header('Location: ./');
         }
         
         $user_tasks = $tasks->getTasks($token);
         $user_info = $users_crud->getUserInfo($token);
     ?>
-    <title>Tu Zona de Usuario/title>
+    <title>Tu Zona de Usuario</title>
 </head>
     <body>
         <div class="container-fluid">

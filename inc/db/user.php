@@ -26,9 +26,9 @@
             $stmp = $this->db->prepare($search);
             $stmp->bindparam(':email', $email);
             $r = $stmp->execute();
-            $result = $stmp->fetch(PDO::FETCH_ASSOC);
+            $result = $stmp->fetch();
 
-            if(count(array($result)) == 1){
+           if(!$result){
                 try{
                     $query = "INSERT INTO users(full_name, email, password, user_token) VALUES(:name, :email, :password, :user_token)";
                     $stm = $this->db->prepare($query);
@@ -64,11 +64,11 @@
                 $stmp->bindparam(':email', $email);
 
                 $stmp->execute();
-                $result = $stmp->fetch(PDO::FETCH_ASSOC);
+                $result = $stmp->fetch();
                 $verify_password = password_verify($password, $result['password']);
                 $user_token = $result['user_token'];
 
-                if($verify_password AND count($result) > 0){
+                if($verify_password AND $result){
                     header("Location: usuario.php?token=$user_token");
                     setcookie('user_token', $user_token, time() + 7 * 24 * 60 * 60); 
                     return true;

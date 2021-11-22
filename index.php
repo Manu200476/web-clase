@@ -55,13 +55,16 @@
       </div>
     </section><!-- End About Us Section -->
 
+    
+  
+
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
 
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
 
             <div class="content">
               <h3 class="mb-4">Preguntas Frecuentes</h3>
@@ -79,7 +82,7 @@
                 </li>
 
                 <li>
-                  <a for="accordion-list-2" data-toggle="collapse" aria-expanded="true" aria-controls="accordion-list-2" data-target="#accordion-list-2" class="collapsed"><span>02</span> ¿Como puedo crear mas usuarios? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a for="accordion-list-2" data-toggle="collapse" aria-expanded="false" aria-controls="accordion-list-2" data-target="#accordion-list-2" class="collapsed"><span>02</span> ¿Como puedo crear mas usuarios? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
                     <p>
                       Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
